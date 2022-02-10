@@ -26,6 +26,7 @@ body {
 @media (max-width: 767px) {
   .container {
     min-width: 78%;
+      padding: 0 15px;
   }
 }
 cite {
