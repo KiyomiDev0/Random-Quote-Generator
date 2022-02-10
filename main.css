@@ -23,6 +23,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+@media (max-width: 767px) {
+  .container {
+    min-width: 78%;
+  }
+}
 cite {
   color: var(--mainColor);
   background-color: var(--bgColor);
@@ -114,7 +119,7 @@ blockquote {
   background-color: var(--mainColor);
   color: var(--bgColor)
 }
-@media (max-width: 627px) {
+@media (max-width: 418px) {
   .features {
     margin-bottom: 20px;
   }
