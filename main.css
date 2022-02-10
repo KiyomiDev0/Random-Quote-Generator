@@ -46,6 +46,12 @@ blockquote {
   letter-spacing: 1px;
   padding: 80px 0;
 }
+@media (max-width: 767px) {
+  .blockquote {
+    font-size: 18px;
+    padding: 55px 0;
+  }
+}
 .corner {
   position: absolute;
   width: 50px;
